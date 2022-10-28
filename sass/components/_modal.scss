@@ -143,33 +143,25 @@
     letter-spacing: 0.03em;
     gap: 5px;
     color: #757575;
+    
 
 }
 
-.label-check span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 16px;
-    height: 15px;
-    border: 2px solid #212121;
-    border-radius: 2px;
-    fill: transparent;
 
-
-}
 
 .input-check:checked+.label-check span {
     background-color: var(--accent-color);
     border-color: transparent;
     fill: var(--fons-color);
 
+    .input-check:focus+ &  {
+            border-color: var(--accent-color);
+    
+        }
+
 }
 
-.input-check:focus+.label-check span {
-    border-color: var(--accent-color);
 
-}
 
 .police-text {
 

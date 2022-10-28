@@ -78,6 +78,12 @@
        align-items: center;
        justify-content: center;
        color: #AFB1B8;
+
+        &:hover,
+            &:focus {
+                background-color: var(--accent-color);
+                color: var(--fons-color);
+            }
    }
 
 
@@ -86,11 +92,7 @@
        fill: currentColor;
    }
 
-   .team-icon-link:hover,
-   .team-icon-link:focus {
-       background-color: var(--accent-color);
-       color: var(--fons-color);
-   }
+ 
 
    .team-link-icon:hover {
 

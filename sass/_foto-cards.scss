@@ -10,22 +10,24 @@
 .foto-item:hover .foto-open {
     transform: translateY(0);
 
+    
+
 }
 
-.foto-link:focus .foto-open {
-    transform: translateY(0);
-}
+
 
 .foto-link {
     display: block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+        &:focus {
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+    
+        }
 }
 
-.foto-link:hover,
-.foto-link:focus {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
 
-}
 
 .foto-open-block {
     position: relative;
