@@ -1,0 +1,37 @@
+.aside {
+  padding: 94px 0;
+}
+
+.aside-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+
+.aside-list {
+  display: flex;
+  gap: 30px;
+}
+
+.aside-caption {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.aside-tex {
+  line-height: 1.7;
+  color: #757575;
+}/*# sourceMappingURL=aside.css.map */
