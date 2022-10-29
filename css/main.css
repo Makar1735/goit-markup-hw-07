@@ -531,30 +531,30 @@ textarea {
   margin: -1px;
 }
 
-.header-nav__link.--current {
+.navigation__link.--current {
   color: var(--accent-color);
 }
 
 /*--------CONTAKT------------ */
-.header-contact {
+.connect {
   display: flex;
   margin-left: auto;
 }
 
-.header-contact__item {
+.connect__item {
   margin-right: 50px;
 }
-.header-contact__item:last-child {
+.connect__item:last-child {
   margin-right: 0px;
 }
 
-.header-contact__mailto-icon,
-.header-contact__tel-icon {
+.connect__mailto-icon,
+.connect__tel-icon {
   fill: currentColor;
 }
 
-.header-contact__mailto,
-.header-contact__tel {
+.connect__mailto,
+.connect__tel {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -568,10 +568,10 @@ textarea {
   color: #757575;
 }
 
-.header-contact__mailto:hover,
-.header-contact__tel:hover,
-.header-contact__mailto:focus,
-.header-contact__tel:focus {
+.connect__mailto:hover,
+.connect__tel:hover,
+.connect__mailto:focus,
+.connect__tel:focus {
   color: var(--accent-color);
 }
 
@@ -589,7 +589,7 @@ textarea {
   margin: 0 auto;
 }
 
-.hero-titl {
+.hero__titl {
   max-width: 696px;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -601,7 +601,7 @@ textarea {
   color: var(--fons-color);
 }
 
-.aside {
+.benefits {
   padding: 94px 0;
 }
 
@@ -619,7 +619,7 @@ textarea {
   border-radius: 4px;
 }
 
-.aside-list {
+.benefits__list {
   display: flex;
   gap: 30px;
 }
