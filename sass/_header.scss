@@ -1,4 +1,4 @@
-.heder__containers {
+.header-containers {
     display: flex;
 }
 
@@ -21,11 +21,11 @@
     display: flex;
 }
 
-.header-nav__list {
+.navigation__list {
     display: flex;
 }
 
-.header-nav__item {
+.navigation__item {
     margin-right: 50px;
     &:last-child {
             margin-right: 0;
@@ -55,7 +55,7 @@
     color: #000;
 }
 
-.header-nav__link {
+.navigation__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
