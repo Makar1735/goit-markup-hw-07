@@ -65,7 +65,7 @@
 .modal-comment:focus {
     border: 1px solid var(--accent-color);
 
-    transition: fill 250ms linear;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -204,14 +204,12 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     cursor: pointer;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--accent-color);
+    
+    
 }
 
-.modal-close:hover,
-.modal-close:focus {
-    fill: var(--accent-color);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .backdrop.is-hidden.modal {
     transform: translate(-50%, -50%) scale(0);
@@ -232,6 +230,15 @@
     justify-content: center;
 
 
+
+
+}
+
+.btn :hover,
+.btn :focus {
+    fill: var(--accent-color);
+  
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
